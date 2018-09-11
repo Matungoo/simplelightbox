@@ -231,7 +231,7 @@ $.fn.simpleLightbox = function( options )
 				}
 
 				$('.sl-image').css({
-					'top':    ( $( window ).height() - imageHeight ) / 2 + 'px',
+					'top':    ( window.innerHeight - imageHeight ) / 2 + 'px',
 					'left':   ( $( window ).width() - imageWidth - globalScrollbarwidth)/ 2 + 'px'
 				});
 				spinner.hide();
